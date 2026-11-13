@@ -146,6 +146,7 @@ def page_shell(title, desc, body, root, canonical='', extra_head=''):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-site-verification" content="83BK16unENDZIQDXdletyQfPjOaMivfoxKV0KYj49DM" />
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
 {f'<link rel="canonical" href="{esc(canonical)}">' if canonical else ''}
